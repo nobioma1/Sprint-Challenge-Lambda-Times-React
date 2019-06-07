@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Content from './components/Content/Content';
 import Login from './components/Login';
 import withAuthenticate from './components/auth/withAuthenticate';
+import Carousel from './components/Carousel/Carousel';
 
 const AppContainer = styled.div`
   display: flex;
@@ -48,6 +49,7 @@ class App extends Component {
           logout={this.logout}
         />
         <Header />
+        <Carousel />
         <AuthComponent {...this.state} toggle={this.toggle} />
       </AppContainer>
     );
