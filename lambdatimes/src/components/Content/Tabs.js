@@ -35,7 +35,7 @@ const Tabs = props => {
   return (
     <TabsContainer>
       <Topics>
-        <span className="title">TRENDING TOPICS:</span>
+        <span>TRENDING TOPICS:</span>
         {tabs.map((tab, index) => (
           <Tab
             key={index}
