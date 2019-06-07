@@ -45,11 +45,13 @@ class Login extends React.Component {
                 value={this.state.username}
                 onChange={e => this.inputHandler(e.target.value, 'username')}
                 placeholder="Username"
+                required
               />
               <Input
                 value={this.state.password}
                 onChange={e => this.inputHandler(e.target.value, 'password')}
                 placeholder="Password"
+                required
               />
             </ModalBody>
             <ModalFooter>
