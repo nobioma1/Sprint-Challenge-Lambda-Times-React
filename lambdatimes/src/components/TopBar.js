@@ -108,7 +108,7 @@ const TopBar = props => {
 };
 
 TopBar.propTypes = {
-  currentUser: PropTypes.string.isRequired,
+  currentUser: PropTypes.string,
   toggle: PropTypes.func.isRequired,
   logout: PropTypes.func.isRequired
 }
